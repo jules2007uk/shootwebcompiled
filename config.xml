@@ -15,12 +15,6 @@ version = "0.0.1">
 <description></description>
 <preference name="phonegap-version" value="3.4.0" />
 
-<!-- sample feature specification -->
-<!-- <feature name="http://api.phonegap.com/1.0/network"/> -->
-
-<preference name="permissions" value="none"/>
-<!--<feature name="http://api.phonegap.com/1.0/network"/>-->
-
 <!-- sample preference specifications -->
 <preference name="autorotate" value="false" readonly="true"/>
 <preference name="orientation" value="portrait" />
