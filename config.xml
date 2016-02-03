@@ -5,24 +5,15 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "Sticky Balls"
 version = "0.0.1">
 
-<!--<supports-screens android:anyDensity="true" android:resizeable="true" 
-    android:smallScreens="true" 
-    android:normalScreens="true" 
-    android:largeScreens="true" 
-    android:xlargeScreens="true" />-->
-
 <name>Sticky Balls</name>
 <description></description>
 <preference name="phonegap-version" value="3.4.0" />
 
 <!-- Allow connectivity to scoreboard API -->
-<access origin="*"/>
+<access origin="http://jwiwebdesign.co.uk/*"/>
 
-<!--
-<allow-navigation href="http://*/*" />
-<allow-intent href="https://*/*" />
-<gap:plugin name="cordova-plugin-whitelist" source="npm" />
--->
+<!-- Configure requested device functionality access -->
+<feature name="http://api.phonegap.com/1.0/network"/>
 
 <!-- sample preference specifications -->
 <preference name="autorotate" value="false" readonly="true"/>
