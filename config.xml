@@ -16,8 +16,13 @@ version = "0.0.1">
 <preference name="phonegap-version" value="3.4.0" />
 
 <!-- Allow connectivity to scoreboard API -->
+<access origin="*"/>
+
+<!--
 <allow-navigation href="http://*/*" />
 <allow-intent href="https://*/*" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+-->
 
 <!-- sample preference specifications -->
 <preference name="autorotate" value="false" readonly="true"/>
