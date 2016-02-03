@@ -17,6 +17,7 @@ version = "0.0.1">
 
 <!-- Allow connectivity to scoreboard API -->
 <allow-navigation href="http://*/*" />
+<allow-intent href="https://*/*" />
 
 <!-- sample preference specifications -->
 <preference name="autorotate" value="false" readonly="true"/>
