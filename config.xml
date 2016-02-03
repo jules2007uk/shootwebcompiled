@@ -10,7 +10,7 @@ version = "0.0.1">
 <preference name="phonegap-version" value="3.4.0" />
 
 <!-- Allow connectivity to scoreboard API -->
-<access origin="http://jwiwebdesign.co.uk/*"/>
+<access origin="http://jwiwebdesign.co.uk" subdomains="true"/>
 
 <!-- Configure requested device functionality access -->
 <feature name="http://api.phonegap.com/1.0/network"/>
