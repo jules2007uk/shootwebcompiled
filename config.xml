@@ -10,7 +10,6 @@ version = "1.0.0">
 <preference name="phonegap-version" value="cli-5.2.0" />
 
 <!-- Allow connectivity to scoreboard API -->
-<content src="index.html" />
 <gap:plugin name="cordova-plugin-whitelist" source="npm" />
 <access origin="*" />
 
@@ -32,6 +31,6 @@ version = "1.0.0">
 
 <!-- Platforms: Customize as needed. -->
 <gap:platforms>
-   <gap:platform name="android" minVersion="2.3" />
+   <gap:platform name="android" minVersion="4.0" />
 </gap:platforms>
 </widget>
