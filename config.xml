@@ -3,7 +3,7 @@
 xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "Sticky Balls"
-version = "1.0.0">
+version = "1.0.1">
 
 <name>Sticky Balls</name>
 <description></description>
@@ -11,7 +11,7 @@ version = "1.0.0">
 
 <!-- Allow connectivity to scoreboard API -->
 <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-<access origin="http://www.jwiwebdesign.co.uk" />
+<access origin="*" />
 
 <!-- Configure requested device functionality access -->
 <feature name="http://api.phonegap.com/1.0/network"/>
