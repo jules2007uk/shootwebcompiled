@@ -7,10 +7,12 @@ version = "1.0.0">
 
 <name>Sticky Balls</name>
 <description></description>
-<preference name="phonegap-version" value="3.4.0" />
+<preference name="phonegap-version" value="cli-5.2.0" />
 
 <!-- Allow connectivity to scoreboard API -->
-<access origin="http://jwiwebdesign.co.uk" subdomains="true"/>
+<content src="index.html" />
+<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+<access origin="*" />
 
 <!-- Configure requested device functionality access -->
 <feature name="http://api.phonegap.com/1.0/network"/>
